@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    
+    body{
+      font-family: "Figtree", sans-serif;
+      font-weight: 500;
+    }
+
+    p{
+      font-size: 16px;
+    }
+
+    label{
+      font-weight: 800;
+    }
+
+    h1,h2,h3,h4,h5{
+      font-weight: 800;
+      margin: 10px 20px;
+    }
+
+    main{
+      background-color: hsl(47, 88%, 63%);
+      height:100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    div {
+      margin-bottom: 15px;
+    }
+
+    .card{
+      max-width: 300px;
+      background-color: hsl(0, 0%, 100%);
+      padding:1rem;
+      border-radius: 15px;
+      border: 1px solid hsl(0, 0%, 42%);
+      box-shadow: 5px 5px hsl(0, 0%, 7%);
+    }
+
+    .card-img{
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    .card-avatar {
+      height: 50px;
+    }
+
+    .card-footer {
+      display: flex;
+    }
+
+    .button{
+      width: 40%;
+      padding: 5px 10px;
+      background-color: hsl(47, 88%, 63%);
+      border-radius: 5px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+
+    <section>
+
+      <div class="card">
+
+        <div class="card-body">
+
+          <div>
+            <img class="card-img" src="assets/images/illustration-article.svg" alt="">
+          </div>
+          
+          <div class="button">
+            Learning
+          </div>
+
+          <div>
+            <p>
+              Published 21 Dec 2023
+            </p>
+  
+          </div>
+          <div>
+            <label for="">
+              HTML & CSS foundations
+            </label>
+          </div>
+
+          <div>
+            <p>
+              These languages are the backbone of every website, defining structure, content, and presentation.
+            </p>
+          </div>
+
+          <div class="card-footer">
+            <img class="card-avatar" src="assets/images/image-avatar.webp" alt="">
+            <h3 for="">
+              
+               Greg Hooper
+            </h3>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </section>
+
+
+  </main>
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
